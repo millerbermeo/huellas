@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fundacion Huellas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <link rel="stylesheet" href="stylos/style.css" />
+  <script src="app/app.js"></script>
+  <link rel="stylesheet" href="iconos/all.css" />
+  <script src="iconos/all.js"></script>
+  <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon" />
+</head>
+
+<body>
+  <div class="banner-top">
+    <i class="fa-solid fa-phone"></i>
+    <span class="span-tel"> + (57) - 321 - 2043026
+      <span class="ubicacion">/ Pitalito-Huila</span></span>
+    <span class="fundacion-title">Fundación Artistica Y Cultural Huellas</span>
+    <i id="icon-correo" class="fa-solid fa-envelope"></i>
+    <span class="correo">funda.artisticaculturalhuellas@gmail.com</span>
+    <div class="redes-sociales">
+      <div class="line"></div>
+      <a href=https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <div class="nav">
+    <img class="logo" src="images/logo.jpg" alt="" />
+    <i class="fa-solid fa-bars"></i>
+    <div class="nav-menu">
+      <ul class="menu">
+        <li id="inicio" class="list-menu"><a href="">Inicio</a></li>
+        <li id="nosotros" class="list-menu">
+          <a>Nosotros <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="sub-menu-uno">
+            <li class="sub"><a href="">Misión</a></li>
+            <li class="sub"><a href="">Historia</a></li>
+            <li class="sub"><a href="">Informacion</a></li>
+          </ul>
+        </li>
+
+        <li class="list-menu">
+          <a href="pages/about.html">Nuestros Servicios</a>
+        </li>
+        <li class="list-menu"><a href="">Eventos</a></li>
+        <li id="evento" class="list-menu">
+          <a>Proceso Dian <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="sub-menu-dos">
+            <li class="sub"><a href="pages/dian.html">Doc 2017</a></li>
+            <li class="sub"><a href="pages/dian.html">Doc 2018</a></li>
+            <li class="sub"><a href="pages/dian.html">Doc 2019</a></li>
+          </ul>
+        </li>
+
+        <li class="list-menu"><a href="https://www.whatsapp.com/?lang=es">Contáctenos</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div class="informacion">
+    <div class="info">
+      <h1>Fundacion<br /><span>Huellas</span></h1>
+      <p>
+        "Desbloquea tu potencial creativo y haz realidad tus sueños
+        artísticos. Apoyamos y potenciamos la gestión y producción cultural,
+        brindando un escenario vibrante para artistas y procesos artísticos.
+      </p>
+    </div>
+
+    <div class="botones">
+      <div class="middle">
+        <a href="" class="btn btn3">About me</a>
+      </div>
+
+      <div class="middle">
+        <a href="#card-footer" class="btn btn4">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="sub-titte">
+      <h2>Nuestro Blog</h2>
+    </div> -->
+
+  <div class="content-carousel-slide">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/pexels-jan-kroon-1596095.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Este es el primer slide</h5>
+            <p>descripcion de prueba slide funcionando correctamente</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/pexels-martin-lopez-2240763.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Este es el segundo slide</h5>
+            <p>descripcion de prueba slide funcionando correctamente</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/pexels-zukiman-mohamad-22185.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Este es el tercer slide</h5>
+            <p>descripcion de prueba slide funcionando correctamente</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="content-card">
+    <div class="tarject">
+      <div class="img-tarject">
+        <img src="images/pexels-martin-lopez-2240763.jpg" alt="" />
+      </div>
+      <div class="img-tarject-dos-a">
+        <img src="images/pexels-jan-kroon-1596095.jpg" alt="" />
+      </div>
+
+      <div class="img-tarject-dos">
+        <img src="images/pexels-jan-kroon-1596095.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="tarject">
+      <div class="img-tarject-tres">
+        <img src="images/pexels-zukiman-mohamad-22185.jpg" alt="" />
+      </div>
+
+      <div class="img-tarject-cuatro">
+        <img src="images/pexels-pixabay-209948.jpg" alt="" />
+      </div>
+
+      <div class="img-tarject-tres">
+        <img src="images/pexels-zukiman-mohamad-22185.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="tarject">
+      <div class="img-tarject-cinco">
+        <img src="images/pexels-josh-hild-16952093.jpg" alt="" />
+      </div>
+
+      <div class="img-tarject-seis">
+        <img src="images/pexels-brett-sayles-1340502.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="imagen-fondo-separar">
+    <img src="images/SL-123119-26540-43.jpg" alt="">
+  </div>
+
+  <div class="section-tres">
+    <div class="eventos-destacados">
+      <h2>Eventos Destacados</h2>
+
+      <div class="eventos-destacados-info">
+        <div class="recuadro-ejemplo">
+          <div class="punto-left"></div>
+          <div class="punto-linea"></div>
+          <div class="punto-middle"></div>
+          <div class="punto-linea"></div>
+          <div class="punto-right"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-capas">
+      <div class="content-capas-imagenes">
+        <img src="images/ejemplo1.png" alt="" />
+      </div>
+      <div class="content-capas-texto">
+        <h3>Evento 1</h3>
+        <p>
+          El arte es una forma de expresión creativa que busca transmitir
+          ideas, emociones y conceptos a través de diversos medios. Puede
+          manifestarse en pintura, escultura, música, danza, literatura, cine
+          y muchas otras disciplinas.<br /><br />
+          El arte tiene como objetivo comunicar y provocar una respuesta
+          emocional o intelectual en el espectador.
+        </p>
+      </div>
+    </div>
+
+    <div class="content-capas-dos">
+      <div class="content-capas-imagenes">
+        <img src="images/ejemplo2.png" alt="" />
+      </div>
+      <div class="content-capas-texto">
+        <h3>Evento 2</h3>
+        <p>
+          La cultura es el conjunto de conocimientos, creencias, valores,
+          tradiciones, costumbres, arte y expresiones de un grupo o sociedad
+          en particular. Incluye todas las formas de vida.<br /><br />La
+          cultura abarca aspectos diversos, como el lenguaje, la religión, la
+          música, la gastronomía, la vestimenta, las festividades y las
+          prácticas sociales.
+        </p>
+      </div>
+    </div>
+
+    <div class="content-capas-tres">
+      <div class="content-capas-imagenes">
+        <img src="images/ejemplo3.png" alt="" />
+      </div>
+      <div class="content-capas-texto">
+        <h3>Evento 3</h3>
+        <p>
+          tres 3Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
+          minus cumque architecto nostrum sit officiis dolore similique dolor,
+          consequatur fugiat minima consectetur corporis quos ea dolorem cum.
+          Incidunt possimus dolore <br /><br />fuga provident delectus
+          pariatur at autem nostrum iste alias assumenda
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-division">
+    <div class="section-division-left">
+      <h3>sub-title txt</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio amet blanditiis ipsa placeat, quae
+        saepe eos ea labore ipsum reprehenderit eum magnam, perferendis sed unde officia? Harum ipsum voluptas qui
+        suscipit sequi quidem quo, veritatis ex quae dicta hic alias, repudiandae eos modi aliquam animi repellat sint,
+        non dolore nemo fuga! Blanditiis praesentium rerum labore eaque ut magni assumenda, aliquam exercitationem sunt
+        ad iure repellat. Vel culpa harum consequuntur voluptas provident ullam laborum autem alias nemo itaque.</p>
+      <div id="image-1"></div>
+    </div>
+    <div class="section-division-right">
+      <h3>sub title txt</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est expedita nam deserunt ea unde fugiat, aliquam,
+        pariatur veniam sequi facilis aliquid illum error tempora quo.</p>
+
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est expedita nam deserunt ea unde fugiat, aliquam,
+        pariatur veniam sequi facilis aliquid illum error tempora quo.</p>
+
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est expedita nam deserunt ea unde fugiat, aliquam,
+        pariatur veniam sequi facilis aliquid illum error tempora quo.</p>
+
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est expedita nam deserunt ea unde fugiat, aliquam,
+        pariatur veniam sequi facilis aliquid illum error tempora quo.</p>
+
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est expedita nam deserunt ea unde fugiat, aliquam,
+        pariatur veniam sequi facilis aliquid illum error tempora quo.</p>
+
+    </div>
+  </div>
+
+
+  <div class="footer-info-contact">
+    <div class="card-text-info">
+      <h3>Fundacion Huellas</h3>
+      El arte es una forma de expresión humana que utiliza diversos medios,
+      como la pintura, la música, la danza, el teatro, la literatura y muchas
+      otras formas creativas. Tiene el poder de afectar a las personas de
+      manera positiva de varias maneras. En primer lugar, el arte puede ser
+      una fuente de inspiración y motivación. Puede despertar emociones y
+      sentimientos profundos.
+
+      <div class="footer-copy">
+        <p>
+          © Copyright 2023. Todos Los Derechos Reservados Fundacion Huellas
+        </p>
+        <p>
+          <a href="">Terminos y condiciones </a>|
+          <a href="">politica de privacidad</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card-localizacion">
+      <div class="locacion-uno">
+        <h2><i class="fa-solid fa-location-dot"></i> Localizacion</h2>
+        <p>Cl. 1 #5-77, Pitalito-Huila</p>
+      </div>
+      <div class="locacion-uno">
+        <h2><i class="fa-solid fa-phone"></i> Telefono</h2>
+        <p>(+57) 321-2043026</p>
+      </div>
+      <div class="locacion-uno">
+        <h2><i class="fa-regular fa-envelope"></i> Email</h2>
+        <p>Leotrumu@hotmail.com</p>
+      </div>
+    </div>
+
+    <div id="card-footer" class="card-footer">
+      <form action="">
+        <div class="form-group">
+          <label for="email">Nombre</label>
+          <input type="email" class="form-control" id="nombre" />
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" />
+          <label for="email">Telefono</label>
+          <input type="email" class="form-control" id="telefono" />
+          <label for="email">Asunto</label>
+          <input type="email" class="form-control" id="asunto" />
+          <button class="enviar-mensaje btn btn-primary" type="submit">
+            Enviar Mensaje
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
