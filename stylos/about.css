@@ -163,7 +163,6 @@ a {
   }
 
   .about-menu {
-    top: 0;
   }
 
   .card-services {
@@ -226,6 +225,17 @@ a {
 
   .about-menu .about-menu-item {
     justify-content: center;
+  }
+
+  .about-menu {
+    width: 100%;
+    padding: 2px 70px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #000000;
+    position: fixed;
+    z-index: 5;
+    top: 0px;
   }
 
   .titulo-about {
