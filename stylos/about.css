@@ -162,6 +162,10 @@ a {
     height: 100vh;
   }
 
+  .about-menu {
+    top: 0;
+  }
+
   .card-services {
     width: 100%;
     padding: 0 100px;
